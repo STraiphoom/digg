@@ -12,7 +12,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: $success;
+  border-color: $primary;
 }
 
 hr.light {
@@ -23,7 +23,7 @@ a {
   color: $primary;
   @include transition-all;
   &:hover {
-    color: darken($success, .1);
+    color: darken($primary, .1);
   }
 }
 
@@ -37,7 +37,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: $success !important;
+  background-color: $primary !important;
 }
 
 .bg-dark {
